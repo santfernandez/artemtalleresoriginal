@@ -64,19 +64,19 @@
             <div class="talleres">
                 <h2>TALLERES</h2>
                 <div class="talleres-flex">
-                    <div class="card card-m" >
+                    <div class="card card-m" onclick="justChecking(event)">
                         <picture>
                             <source media="(max-width: 990px)" srcset="./img/img-musica-small.jpg" class="img-talleres">
                             <source media="(min-width: 990px)" srcset="./img/img-musica-large.jpg" class="img-talleres">
                             <img class="img-talleres" src="./img/img-musica-large.jpg" alt="">
                         </picture>
-                        <div id="info" class="info" onClick="justChecking" >
+                        <div id="info" class="info" onClick="justChecking(event)" >
                             <h3 class="h3">Música</h3>
                             <p class="p">Acordeón<br>Bajo Eléctrico<br>Canto<br>Flauta Dulce<br>Flauta Traversa<br>Guitarra<br>Percusión<br>Piano<br>Ukelele<br>Violín<br>Viola<br>Violoncello
                             </p>
                         </div>
                     </div>
-                    <div class="card card-a-p">
+                    <div class="card card-a-p" onclick="justChecking(event)">
                         <img class="img-talleres" src="./img/img-artes-plastica.jpg" alt="">
                         <div id="infoAP" class="info">
                             <h3 class="h3">Artes Plásticas</h3>
@@ -92,7 +92,7 @@
                             <p class="p">Diseño Gráfico<br>Fotografía<br>Modelado 3D</p>
                         </div>
                     </div>
-                    <div class="probando card card-i">
+                    <div class="probando card card-i" onclick="justChecking(event)">
                         <picture data-open="infoI">
                             <source media="(max-width: 480px)" srcset="./img/img-idioma-480w.jpg">
                             <source media="(max-width: 990px)" srcset="./img/img-idioma-660w.jpg">
